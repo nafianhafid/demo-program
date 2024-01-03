@@ -30,7 +30,7 @@ st.title("Demo Program Skripsi - Penerapan MobileNetV2 Untuk Klasifikasi Emosi B
 st.write("")
 
 # enable users to upload images for the model to make predictions
-file_up = st.file_uploader("Upload an image", type = "jpg")
+file_up = st.file_uploader("Upload an image", type = ("jpg", "png"))
 
 def predict(image):
     """Return top 5 predictions ranked by highest probability.
