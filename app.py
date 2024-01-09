@@ -91,4 +91,4 @@ if file_up is not None:
 
     # print out the top 5 prediction labels with scores
     for i in labels:
-        st.write("Prediction (index, name)", i[0], ",   Score: ", i[1])
+        st.write("Prediction ({index}, {name})", i[0], ",   Score: ", i[1])
